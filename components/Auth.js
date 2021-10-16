@@ -4,6 +4,7 @@ import {SafeAreaView, StyleSheet, Text, Button, TextInput } from 'react-native'
 function Auth() {
     return (
         <SafeAreaView style={styles.container}>
+            <Text>Feature Four</Text>
             <TextInput
                 style={styles.input}
                 placeholder="Email"
